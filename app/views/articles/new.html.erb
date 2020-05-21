@@ -1,6 +1,7 @@
 <h1>Create a new article</h1>
 
-<%= form_with scope: :article, url: articles_path, loacl:true do |f| %>
+<%= form_with scope: :article, url: articles_path, local: true do |f| %>
+  
   <p>
     <%= f.label :title %><br/><br/>
     <%= f.text_field :title %>
@@ -11,7 +12,7 @@
     <%= f.text_area :description %>
   </p>
   <p>
-    
     <%= f.submit %>
   </p>
-<%end%> 
+
+<% end %> 
