@@ -35,3 +35,14 @@ body {
 #page-content{
     background-color: lightgrey;
 }
+
+.jumbotron{
+  background-image: asset-url('blog.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+  opacity: 1.0;
+  background-blend-mode: overlay;
+
+}
