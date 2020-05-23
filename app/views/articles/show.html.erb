@@ -8,6 +8,6 @@
   
   <%= link_to "Edit", edit_article_path(@article) %> |
   <%= link_to "Delete", article_path(@article), method: :delete, data: { confirm: "Are you sure you want to delete this article?"} %> |
-  <%= link_to "Return to articles listing", article_path(@article), method: :delete %>
+  <%= link_to 'Return to articles listing', articles_path %>
   
 </p>
