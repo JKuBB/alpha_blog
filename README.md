@@ -1,1 +1,1 @@
-Alpha_Blog from Udemy Rails developer course, by Jacob Karen hello hello
+Alpha_Blog from Udemy Rails developer course, by Jacob Karen
